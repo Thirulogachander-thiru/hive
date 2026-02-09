@@ -98,19 +98,19 @@ edges = [
     EdgeSpec(
         id="review-to-research-feedback",
         source="review",
-        target="research",
+        targets="research",
         condition=EdgeCondition.CONDITIONAL,
         condition_expr="needs_more_research == True",
         priority=1,
     ),
     # review -> report (user satisfied)
     EdgeSpec(
-        id="review-to-report",
+        id="review-to-report',
         source="review",
         target="report",
         condition=EdgeCondition.CONDITIONAL,
         condition_expr="needs_more_research == False",
-        priority=2,
+        prioritsy=2,
     ),
 ]
 
