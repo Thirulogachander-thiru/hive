@@ -4,11 +4,7 @@ CLI entry point for Deep Research Agent.
 Uses AgentRuntime for multi-entrypoint support with HITL pause/resume.
 """
 
-import asyncio
-import json
-import logging
-import sys
-import click
+
 
 from .agent import default_agent, DeepResearchAgent
 
